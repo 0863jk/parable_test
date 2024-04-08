@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/parable_test/static/css/main.d0b2749f.css",
+    "main.js": "/parable_test/static/js/main.07229546.js",
+    "static/media/일어난다.mp4": "/parable_test/static/media/일어난다.de6805b38ec22c031ddc.mp4",
+    "static/media/Parable.mp4": "/parable_test/static/media/Parable.821ede92999f55b9a869.mp4",
+    "static/media/잔다.mp4": "/parable_test/static/media/잔다.b076207b776a77cd464e.mp4",
+    "index.html": "/parable_test/index.html",
+    "main.d0b2749f.css.map": "/parable_test/static/css/main.d0b2749f.css.map",
+    "main.07229546.js.map": "/parable_test/static/js/main.07229546.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d0b2749f.css",
+    "static/js/main.07229546.js"
+  ]
+}
