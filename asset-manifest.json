@@ -1,16 +1,34 @@
 {
   "files": {
-    "main.css": "/parable_test/static/css/main.d0b2749f.css",
-    "main.js": "/parable_test/static/js/main.07229546.js",
-    "static/media/일어난다.mp4": "/parable_test/static/media/일어난다.de6805b38ec22c031ddc.mp4",
-    "static/media/Parable.mp4": "/parable_test/static/media/Parable.821ede92999f55b9a869.mp4",
-    "static/media/잔다.mp4": "/parable_test/static/media/잔다.b076207b776a77cd464e.mp4",
+    "main.css": "/parable_test/static/css/main.7e5025db.css",
+    "main.js": "/parable_test/static/js/main.f5842aa8.js",
+    "static/js/453.432c586e.chunk.js": "/parable_test/static/js/453.432c586e.chunk.js",
+    "static/media/16_fight_back.mp4": "/parable_test/static/media/16_fight_back.fa851df9374c0ee6d40c.mp4",
+    "static/media/06_steal_the_wallet.mp4": "/parable_test/static/media/06_steal_the_wallet.e8ffd21bdfba1d4a52af.mp4",
+    "static/media/04_steal_the_cigarette.mp4": "/parable_test/static/media/04_steal_the_cigarette.9baaffb72cb1d618365f.mp4",
+    "static/media/02_wake_up.mp4": "/parable_test/static/media/02_wake_up.de6805b38ec22c031ddc.mp4",
+    "static/media/05_dont_steal.mp4": "/parable_test/static/media/05_dont_steal.8591121e5955180ebc59.mp4",
+    "static/media/10_chase_her.mp4": "/parable_test/static/media/10_chase_her.b278ca28264551547890.mp4",
+    "static/media/01_Parable.mp4": "/parable_test/static/media/01_Parable.821ede92999f55b9a869.mp4",
+    "static/media/18_kill_him.mp4": "/parable_test/static/media/18_kill_him.f92f5976c31176d06b02.mp4",
+    "static/media/09_talk_with_them.mp4": "/parable_test/static/media/09_talk_with_them.0078f92708dc5faa6fd5.mp4",
+    "static/media/12_cover_it_up.mp4": "/parable_test/static/media/12_cover_it_up.d2d41fdbfb909156632d.mp4",
+    "static/media/17_run_away.mp4": "/parable_test/static/media/17_run_away.78d818b324bc8a435707.mp4",
+    "static/media/19_sacrifice_myself.mp4": "/parable_test/static/media/19_sacrifice_myself.2b1e5082fdc6b4b4315e.mp4",
+    "static/media/13_fight_with_owner.mp4": "/parable_test/static/media/13_fight_with_owner.f315c5104b59bde95d27.mp4",
+    "static/media/07_find_owner.mp4": "/parable_test/static/media/07_find_owner.d9c26c339b1ed77068ce.mp4",
+    "static/media/11_play_game.mp4": "/parable_test/static/media/11_play_game.613043fd94b1eab4cfeb.mp4",
+    "static/media/14_apologize.mp4": "/parable_test/static/media/14_apologize.dfa807e262ecb0f12493.mp4",
+    "static/media/08_stay_out_of_them.mp4": "/parable_test/static/media/08_stay_out_of_them.f63df54144405331a44b.mp4",
+    "static/media/15_ignore.mp4": "/parable_test/static/media/15_ignore.f56d4595da0aaff46181.mp4",
+    "static/media/03_sleep.mp4": "/parable_test/static/media/03_sleep.b076207b776a77cd464e.mp4",
     "index.html": "/parable_test/index.html",
-    "main.d0b2749f.css.map": "/parable_test/static/css/main.d0b2749f.css.map",
-    "main.07229546.js.map": "/parable_test/static/js/main.07229546.js.map"
+    "main.7e5025db.css.map": "/parable_test/static/css/main.7e5025db.css.map",
+    "main.f5842aa8.js.map": "/parable_test/static/js/main.f5842aa8.js.map",
+    "453.432c586e.chunk.js.map": "/parable_test/static/js/453.432c586e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0b2749f.css",
-    "static/js/main.07229546.js"
+    "static/css/main.7e5025db.css",
+    "static/js/main.f5842aa8.js"
   ]
 }
