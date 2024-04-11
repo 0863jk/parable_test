@@ -65,15 +65,38 @@ const Ending = (props) => {
                                 </div>
                                 <div style={{ display: "flex", flexDirection: "column", padding: "10px" }}>
                                     <label className='role'>제작에 도움을 주신 분들</label>
-                                    <label className='name'>이승준</label>
-                                    <label className='name'>박준형</label>
-                                    <label className='name'>장태호</label>
-                                    <label className='name'>오윤아</label>
+                                    <div style={{ display: "flex" }}>
+                                        <label className='name'>이승준</label>
+                                        <label className='name'>박준형</label>
+                                        <label className='name'>장태호</label>
+                                        <label className='name'>오윤아</label>
+                                    </div>
+                                </div>
+                                <div className='choice restart' onClick={(e) => handleEndingEvent("restart")}>
+                                    <label style={{ margin: "10px", fontSize: "32px" }}>
+                                        처음으로 돌아가기
+                                    </label>
+                                </div>
+                                <div className='choice credit' onClick={(e) => handleEndingEvent("credit")}>
                                 </div>
                             </div>
-                        ) : <></>
+                        ) : (
+                            <div>
+                                <div className='choice restart' onClick={(e) => handleEndingEvent("restart")}>
+                                    <label style={{ margin: "10px", fontSize: "64px" }}>
+                                        처음으로 돌아가기
+                                    </label>
+                                </div>
+                                <div className='choice credit' onClick={(e) => handleEndingEvent("credit")}>
+                                    <label style={{ margin: "10px", fontSize: "32px" }}>
+                                        크레딧 보기
+                                    </label>
+                                </div>
+
+                            </div>
+                        )
                     }
-                    <div className='choice restart' onClick={(e) => handleEndingEvent("restart")}>
+                    {/* <div className='choice restart' onClick={(e) => handleEndingEvent("restart")}>
                         <label style={{ margin: "10px", fontSize: "64px" }}>
                             처음으로 돌아가기
                         </label>
@@ -82,7 +105,7 @@ const Ending = (props) => {
                         <label style={{ margin: "10px", fontSize: "32px" }}>
                             크레딧 보기
                         </label>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

@@ -1,6 +1,5 @@
 .App {
   display: flex;
-  justify-content: center;
   align-items: center;
   text-align: center;
   background-color: black;
@@ -35,7 +34,6 @@
 .container {
   display: flex;
   justify-content: center;
-  align-items: center;
   width: 1280px;
   height: 720px;
 }
@@ -84,7 +82,7 @@
 }
 
 .creditContainer label.teamTitle {
-  font-size: 64px;
+  font-size: 54px;
 }
 
 .creditContainer label.role {
@@ -94,4 +92,5 @@
 
 .creditContainer label.name {
   font-size: 32px;
+  padding: 5px;
 }

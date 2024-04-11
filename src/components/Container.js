@@ -244,6 +244,9 @@ const Container = () => {
                                             시작하기
                                         </label>
                                     </div>
+                                    <label style={{ margin: "10px", fontSize: "16px" }} onClick={start}>
+                                        모바일의 경우 가로 모드로 보는 것을 권장합니다.
+                                    </label>
                                 </div>
                             </div>
                         </div>
@@ -256,6 +259,7 @@ const Container = () => {
                         style={{
                             position: "absolute",
                             width: "100%",
+                            height: "100%",
                             zIndex: 15
                         }}>
                         <Choices
@@ -284,7 +288,8 @@ const Container = () => {
             <div
                 style={{
                     position: "relative",
-                    zIndex: 0
+                    zIndex: 0,
+                    padding: "50px"
                 }}>
                 <Video
                     key={key}
