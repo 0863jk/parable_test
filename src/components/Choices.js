@@ -163,22 +163,8 @@ const Choices = (props) => {
                             <label style={{ marginBottom: "200px", fontSize: "32px" }}>replay</label>
                         </div>
                     </div>
-                ) : 
-                <></>
-                // <div className='ending'>
-                //     <div className='ending-choice' style={{ display: "flex", flexDirection: "column" }}>
-                //         <div className='choice restart' onClick={(e) => handleEndingEvent("restart")}>
-                //             <label>
-                //                 처음으로 돌아가기
-                //             </label>
-                //         </div>
-                //         <div className='choice credit' onClick={(e) => handleEndingEvent("credit")}>
-                //             <label>
-                //                 크레딧 보기
-                //             </label>
-                //         </div>
-                //     </div>
-                // </div>
+                ) :
+                    <></>
             }
         </div >
     );
