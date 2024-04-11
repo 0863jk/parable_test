@@ -1,5 +1,9 @@
 .App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  background-color: black;
 }
 
 .App-logo {
@@ -28,16 +32,27 @@
   color: #61dafb;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1280px;
+  height: 720px;
+}
+
 .choice {
-  width: 50%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
-  background-color: rgba(0, 0, 0, 0.8);
-  transition: background-color 1s ease;
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: 1s ease;
   text-shadow: 0px 0px 1rem black;
+}
+
+.choice-main {
+  width: 50%;
 }
 
 .choice label {
@@ -45,13 +60,10 @@
   text-shadow: white;
 }
 
-.choice:focus {
-  background-color: rgba(0, 0, 0, 0.5); 
-  color: white;
-}
-.choice:hover {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
+.choice.inactive label {
+  opacity: 15%;
+  pointer-events: none;
+  /* 마우스 이벤트 무시 */
 }
 
 .ending {
@@ -67,6 +79,19 @@
 }
 
 .ending label {
-  font-size: 72px;
+  font-size: 64px;
   text-shadow: white;
+}
+
+.creditContainer label.teamTitle {
+  font-size: 64px;
+}
+
+.creditContainer label.role {
+  font-size: 28px;
+  padding: 10px;
+}
+
+.creditContainer label.name {
+  font-size: 32px;
 }

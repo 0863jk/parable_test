@@ -19,7 +19,7 @@ const Video = (props) => {
     }
 
     return (
-        <video autoPlay key={key} height="720px" controls="controls" onEnded={videoEnded} >
+        <video autoPlay key={key} width="100%" controls="controls" onEnded={videoEnded} style={{ padding: "20px" }}>
             <source src={videoUrl} type="video/mp4" />
         </video>
     );
