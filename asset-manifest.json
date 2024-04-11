@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/parable_test/static/css/main.ce1874e3.css",
-    "main.js": "/parable_test/static/js/main.f323a1fb.js",
+    "main.js": "/parable_test/static/js/main.b39c52e2.js",
     "static/js/453.432c586e.chunk.js": "/parable_test/static/js/453.432c586e.chunk.js",
     "static/media/16_fight_back.mp4": "/parable_test/static/media/16_fight_back.fa851df9374c0ee6d40c.mp4",
     "static/media/06_steal_the_wallet.mp4": "/parable_test/static/media/06_steal_the_wallet.e8ffd21bdfba1d4a52af.mp4",
@@ -24,11 +24,11 @@
     "static/media/03_sleep.mp4": "/parable_test/static/media/03_sleep.b076207b776a77cd464e.mp4",
     "index.html": "/parable_test/index.html",
     "main.ce1874e3.css.map": "/parable_test/static/css/main.ce1874e3.css.map",
-    "main.f323a1fb.js.map": "/parable_test/static/js/main.f323a1fb.js.map",
+    "main.b39c52e2.js.map": "/parable_test/static/js/main.b39c52e2.js.map",
     "453.432c586e.chunk.js.map": "/parable_test/static/js/453.432c586e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ce1874e3.css",
-    "static/js/main.f323a1fb.js"
+    "static/js/main.b39c52e2.js"
   ]
 }
